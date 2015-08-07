@@ -1,0 +1,14 @@
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\xunit.execution.desktop.dll
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\CheeseAndScrewdrivers.dll
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\CheeseAndScrewdrivers.pdb
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\xunit.abstractions.dll
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\xunit.assert.dll
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\xunit.core.dll
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\xunit.abstractions.xml
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\xunit.assert.pdb
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\xunit.assert.xml
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\xunit.core.pdb
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\bin\Debug\xunit.core.xml
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\obj\Debug\CheeseAndScrewdrivers.csprojResolveAssemblyReference.cache
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\obj\Debug\CheeseAndScrewdrivers.dll
+c:\users\matthew.blair\documents\visual studio 2013\Projects\CheeseAndScrewdrivers\CheeseAndScrewdrivers\obj\Debug\CheeseAndScrewdrivers.pdb
