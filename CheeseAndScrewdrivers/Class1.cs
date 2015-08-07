@@ -69,27 +69,25 @@ namespace CheeseAndScrewdrivers
 
     public class ShoppingCart
     {
-        public int cheeseQuantity = 0;
         public int screwdriverQuanitity = 0;
         public int bundleQuantity = 0;
         public double totalPrice = 0;
         private double cheesePrice = 3.50;
         private double screwdriverPrice = 6;
+
+        public List<IShoppingCartItem>  items = new List<IShoppingCartItem>();
         public void addCheese()
         {
-            cheeseQuantity++;
             totalPrice += cheesePrice;
         }
 
         public void addScrewdriver()
         {
-            screwdriverQuanitity++;
             totalPrice += screwdriverPrice;
         }
 
         public void addOutOfDateCheese()
         {
-            cheeseQuantity++;
             totalPrice += (cheesePrice/2);
         }
 
@@ -100,7 +98,32 @@ namespace CheeseAndScrewdrivers
             totalPrice += (1 - discount) * bundlePrice;
             bundleQuantity++;
         }
+
+        public void add(IShoppingCartItem item)
+        {
+            totalPrice += item.GetPrice();
+            items.Add(item);
+        }
+
+        public int cheeseQuantity
+        {
+            get { return items.Count(i => i is Cheese); }
+        }
     }
 
+    public class Cheese : IShoppingCartItem
+    {
+        public double GetPrice()
+        {
+            return 3.5;
+        }
+    }
+
+    public interface IShoppingCartItem
+    {
+        double GetPrice();
+
+        string Name { get; }
+    }
 
 }
